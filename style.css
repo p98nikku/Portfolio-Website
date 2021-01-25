@@ -1,10 +1,22 @@
+@media screen and (max-width:481px)
+{
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root{
     --primary_color: #C0C0C0;
     --secondary_color: #000;
 }
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+@-ms-viewport {
+    width: device-width ;
+  }
+
 *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -88,6 +100,7 @@ a:focus,a:hover{
 }
 
 img.intro{
+    max-width: 100%;
     width:250px;
     height:250px;
     float:left;
@@ -318,6 +331,7 @@ p {
 
 /*Background image*/
 .hero-image {
+    max-width: 100%;
     background-image: url("images/pexels-lumn-399161.jpg");
     background-color: #fff;
     height: 450px;
@@ -396,4 +410,5 @@ p {
     justify-content: center;
     align-items: center;
     height:100%;
+}
 }
