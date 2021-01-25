@@ -166,8 +166,8 @@ img.intro{
 .box1{
     display:inline-block;
     margin-top: 20px;
-    margin-left: 100px;
-    margin-right:100px;
+    margin-left: 60px;
+    margin-right:70px;
     margin-bottom: 20px;
     padding:48px;
     width: 500px;
@@ -250,7 +250,7 @@ img.intro{
     margin-top: 50px;
 }
 .mainbtn {
-    margin-left: 280px;
+    margin-left: 250px;
     color: #fff;
     background: #4299ed;
     border-radius: 30px;
@@ -320,7 +320,7 @@ p {
 .hero-image {
     background-image: url("images/pexels-lumn-399161.jpg");
     background-color: #fff;
-    height: 500px;
+    height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
