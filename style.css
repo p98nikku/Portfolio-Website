@@ -44,24 +44,28 @@ img{
 }
 
 /*NAVBAR*/
-.navbar{
+#navbar{
     height:100px;
     background-color: #C0C0C0;
+    position: fixed;
+    width:100%;
+    top:0;
+    z-index: 1;
 }
 
-.navbar h1{
+#navbar h1{
     font-weight:lighter;
     font-style: normal;
     font-family: serif;
 }
 
-.navbar ul{
+#navbar ul{
     display: flex;
     color:#fff;
     font-family:Verdana;
 }
 
-.navbar a{
+#navbar a{
     color: #000; /* home navbar*/
     padding: 10px;
     margin: 0 5px;
